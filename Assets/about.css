@@ -1,0 +1,21 @@
+
+.container{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 80%; 
+    background-color: #819C8B;
+    padding: 40px;
+}
+.page-header{
+    border-bottom: 2px solid black;
+    margin-bottom: 60px;
+}
+p{
+    float: left;
+}
+.familyPic{
+     width: 100%;
+     margin: 10px 0;
+ }
+
+ 

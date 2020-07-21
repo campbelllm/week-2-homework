@@ -1,0 +1,126 @@
+.hero {
+    background-image: url('./Images/Welcome.png');
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.welcome{
+    position: relative;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    animation-duration: 5s;
+    animation-name: opacity;
+    text-align: center;
+  }
+.squareSection {
+    display: flex;
+    
+    background-color: #F2E8CF;
+    padding: 60px 0;
+    
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+    border: none;
+    margin-bottom: 20px;
+   
+}
+.squareBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    background-color: #9c6c6c;
+    border-radius: inherit;
+}
+
+.card-text {
+   font-size: 36px;
+   color: #F2E8CF;
+}
+.card-text:hover{
+    color: #295151;
+    text-decoration: none;
+}
+.learning{
+    display: flex;
+}
+.row{
+    margin-right: 0;
+}
+.currently {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #819C8B;
+    height: 400px;
+    color: #004356;
+    font-size: 72px;
+}
+
+.learningItems {
+    margin-top: 50px;
+    height: 300px;
+    background-color: #004356;
+    color: #C6B886;
+    line-height: 2;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+}
+.list{
+    margin-top: 45px;
+}
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+} 
+.section2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+@keyframes opacity {
+    0% {
+      opacity: 0;
+      color: #F2E8CF;
+    }
+
+    100% {
+      opacity: 1;
+      color: black;
+    }
+  }
+
+  @media screen and (min-width: 760px){
+      .welcome-text{
+          font-size: 200px;
+      }
+  }
+
+  @media screen and (max-width: 759px){
+      .welcome-text{
+          font-size: 25vw;
+      }
+  }

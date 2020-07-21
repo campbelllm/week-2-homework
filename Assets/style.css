@@ -1,0 +1,42 @@
+body{
+   background-color: #F2E8CF;
+   
+}
+
+nav {
+    background-color: #F2E8CF;
+    color: #295151;
+    border-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #295151;
+}
+
+.nav-link{
+    color: #295151;
+    margin-right: 20px;
+}
+
+.nav-link:hover{
+    color: #9c6c6c;
+}
+
+.active{
+    color: #805858;
+}
+.navbar-toggler-icon{
+    color:#295151;
+}
+
+
+footer {
+    width: 100%;
+    border-style: solid;
+    border-color: #295151;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    position: absolute;
+ }
+  
+  
+  

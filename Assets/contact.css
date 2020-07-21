@@ -1,0 +1,25 @@
+
+ .contactMeForm{
+     background-color: #819C8B;
+     margin: 200px 0;
+     width: 90%;
+     padding: 20px;
+     color: #F2E8CF;
+ }
+.form-control{
+     border:none;
+     border-bottom: 2px solid #295151;
+     background-color: #819C8B;
+     border-radius: 0;
+ }
+
+.btn{
+    background-color: #295151;
+    border: none; 
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #805858;
+}
+
