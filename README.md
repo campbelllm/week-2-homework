@@ -14,4 +14,4 @@ https://campbelllm.github.io/week-2-homework/
 
 Preview of site:
 
-![Preview of Project](Assets/images/portfolioPreview.png)
+![Preview of Project](https://github.com/campbelllm/week-2-homework/blob/master/Assets/Images/portfolioPreview.png)
